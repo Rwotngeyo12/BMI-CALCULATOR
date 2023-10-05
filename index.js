@@ -23,8 +23,17 @@ button.addEventListener("click", () => {
             const bmi = (weight / (height * height));
             return bmi;
         }
-    if (bmi < 20) {
-        return resL = 
+     if (bmi < 20) {
+        XPathResult.innerHTML = "under weight";
+    } else if (bmi <= 20 && bmi <= 30) {
+        XPathResult.innerHTML = "normal";
+    }
+    else if (bmi > 30){
+        XPathResult.innerHTML = "over weight";
+    }
+    else  {
+        alert("This is incorrect");
+        XPathResult.innerHTML = "";
     }   
 });
 
