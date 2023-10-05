@@ -1,0 +1,41 @@
+body {
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: aquamarine;
+    color: black;
+    font-size: 20px;
+    font-weight: bolder;
+}
+span {
+    color: red;
+}
+.cover {
+    margin-top: 100px;
+    margin-left: 200px;
+    margin-bottom: 20px;
+    margin-inline-end: 200px;
+    position: relative;
+    background-color: pink;
+    border-radius: 5px;
+    padding: 30px;
+    box-shadow: rgb(rgb(170, 81, 81), rgb(63, 117, 63), rgb(76, 76, 124));
+
+}
+input {
+    border: none;
+    padding: 15px;
+    outline: auto;
+}
+button {
+    color: black;
+    padding: 25px;
+    background-color: purple;
+    position: relative;
+    border-radius: 10px;
+    font-size: large;
+    font-weight: bolder;
+    cursor: pointer;
+    
+
+}
