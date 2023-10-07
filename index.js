@@ -1,4 +1,4 @@
-//javascript code
+//javascript code for the bmi calculator
 let button = document.getElementById("btn");
 
 button.addEventListener("click", () => {
