@@ -12,28 +12,17 @@ button.addEventListener("click", () => {
             document.getElementById("height_error").innerHTML = "";
             height_status = true;
         };
-    
-    if (weight = "" || isNaN(weight) || (weight <= 0)) {
-        document.getElementById("weight_error").innerHTML = "Please provide a valid weight";}
-        else {
-            document.getElementById("weight_error").innerHTML = "";
-            weight_status = true;
-        };
-        if (height_status && weight_status) {
-            const bmi = (weight / (height * height));
-            return bmi;
+  //bmi calculator code
+    function bmiCalculator (weight, height) {
+    // code of functions
+    if (BMI < 18.5){
+        if(BMI > 18.5 && BMI > 24.9){
+            if(BMI > 24.9){
+                return "so you are over weight";
+            }
+            return "so you have a normal weight";
         }
-     if (bmi < 20) {
-        XPathResult.innerHTML = "under weight";
-    } else if (bmi <= 20 && bmi <= 30) {
-        XPathResult.innerHTML = "normal";
+        return "so your under weight";
     }
-    else if (bmi > 30){
-        XPathResult.innerHTML = "over weight";
-    }
-    else  {
-        alert("This is incorrect");
-        XPathResult.innerHTML = "";
-    }   
-});
+}
 
